@@ -2,7 +2,7 @@ describe("Bootstrap Date Pickers", () => {
     beforeEach( () => {
         cy.openDemoPlayground("Bootstrap Date Picker")
     })
-    // Given the user is on the bootstra date picker page demo
+    // Given the user is on the bootstrap date picker page demo
     //   And the user wants to use the date picker
     // When the user enters the date into the picker
     // Then the date will be displayed
