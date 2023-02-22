@@ -1,3 +1,5 @@
+//Including Gherkin in front of each test for demo purposes
+
 describe("Find First link", () => {
   // Given the user wants to test the first page elements
   // When the user opens the page
@@ -131,7 +133,7 @@ describe("Test Select Box Demo", () => {
     })
   })
 
-  // *****Failing as the select box on the page seems to be bugged, always displaying Texas******
+  // *****Failing as the select box on the page seems to be bugged, always displaying Texas when trying to use "get selected" buttons******
   // Given the user is on the Select Box Demo page
   // When the user selects multiple states
   //   And the user selects "California" and Washington
@@ -186,8 +188,7 @@ describe('JQuery Select dropdown', () => {
   //   And the user wants to use the multiselect dropdown
   // When the user selects "Alabama","Florida", and "Georgia"
   // Then they will all appear in the dropdown as selected values
-
-  it.only("Test Select Multiple Values", () => {
+  it("Test Select Multiple Values", () => {
     let states = [
       "Alabama",
       "Florida",
@@ -201,4 +202,5 @@ describe('JQuery Select dropdown', () => {
       cy.wrap($el).should("contain.text", states[index])
     })
   })
+  
 })
