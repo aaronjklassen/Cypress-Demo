@@ -174,14 +174,31 @@ describe('JQuery Select dropdown', () => {
     cy.openDemoPlayground("JQuery Select dropdown")
   }) 
   // Given the user is on the jquery select dropdown page
-  // When the user selects "Australia" from the dropdown"
+  //   And the user wants to use the single dropdown
+  // When the user selects "Australia" from the dropdown
   // Then the value appearing in the dropdown will be "Australia"
   it("Drop Down with Search box", () => {
     cy.get("#country").select("Australia", { force: true })
     cy.get("#country").should("have.value", "Australia")
   })
+
+  // Given the user is on the jquery select dropdown page
+  //   And the user wants to use the multiselect dropdown
+  // When the user selects "Alabama","Florida", and "Georgia"
+  // Then they will all appear in the dropdown as selected values
+
   it.only("Test Select Multiple Values", () => {
-    cy.get(".select2-search__field").type("Alabama{enter}")
-    cy.get(".select2-search__field").type("Alabama{enter}")
+    let states = [
+      "Alabama",
+      "Florida",
+      "Georgia"
+    ]
+    cy.wrap(states).each((index) => {
+      cy.get(".select2-search__field").type(index + "{enter}")
+    })
+
+    cy.get(".select2-selection__choice").each(($el, index) => {
+      cy.wrap($el).should("contain.text", states[index])
+    })
   })
 })
