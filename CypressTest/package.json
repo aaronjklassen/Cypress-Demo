@@ -3,6 +3,7 @@
         "cypress:open": "cypress open"
     },
     "devDependencies": {
-        "cypress": "^12.6.0"
+        "cypress": "^12.6.0",
+        "cypress-plugin-tab": "^1.0.5"
     }
 }
