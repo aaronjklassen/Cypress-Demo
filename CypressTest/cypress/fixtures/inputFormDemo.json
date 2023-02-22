@@ -1,0 +1,13 @@
+{
+  "name" : "First Last",
+  "email" : "email@email.com",
+  "password" : "PAssword1",
+  "company" : "Company",
+  "website" : "https://www.company.com",
+  "country" : "Canada",
+  "city" : "Charlottetown",
+  "address" : "123 Main St",
+  "address2" : "22 Oak st",
+  "state" : "PEI",
+  "zipcode" : "C1C0M9"
+}
