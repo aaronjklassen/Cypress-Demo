@@ -1,0 +1,5 @@
+[
+    { "column": "Username", "filtertext": "Bootstrap 3" },
+    { "column": "First Name", "filtertext": "Jane Doe" },
+    { "column": "Last Name", "filtertext": "completed" }
+]

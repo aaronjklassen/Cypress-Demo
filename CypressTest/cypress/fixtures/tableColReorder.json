@@ -1,0 +1,13 @@
+[
+    { "column" : "Name", "order" : "desc", "expectedValue" : "Y. Berry" },
+    { "column" : "Position", "order" : "asc", "expectedValue" : "Accountant" },
+    { "column" : "Position", "order" : "desc", "expectedValue" : "Tester" },
+    { "column" : "Office", "order" : "asc", "expectedValue" : "Edinburgh" },
+    { "column" : "Office", "order" : "desc", "expectedValue" : "Tokyo" },
+    { "column" : "Age", "order" : "asc", "expectedValue" : "19" },
+    { "column" : "Age", "order" : "desc", "expectedValue" : "66" },
+    { "column" : "Start date", "order" : "asc", "expectedValue" : "Fri 10th Apr 09" },
+    { "column" : "Start date", "order" : "desc", "expectedValue" : "Wed 9th Jun 10" },
+    { "column" : "Salary", "order" : "asc", "expectedValue" : "$1,200,000/y" },
+    { "column" : "Salary", "order" : "desc", "expectedValue" : "$95,400/y" }
+]

@@ -1,0 +1,10 @@
+[
+    { "alert" : "Autoclosable Success Message", "class" : ".alert-success-auto" },
+    { "alert" : "Normal Success Message", "class" : ".alert-success-manual" },
+    { "alert" : "Autoclosable Info Message", "class" : ".alert-info-auto" },
+    { "alert" : "Normal Info Message", "class" : ".alert-info-manual" },
+    { "alert" : "Autoclosable Warning Message", "class" : ".alert-warning-auto" },
+    { "alert" : "Normal Warning Message", "class" : ".alert-warning-manual" },
+    { "alert" : "Autoclosable Danger Message", "class" : ".alert-danger-auto" },
+    { "alert" : "Normal Danger Message", "class" : ".alert-danger-manual" }
+]
